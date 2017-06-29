@@ -72,6 +72,6 @@ output "public_dns" {
 
 output "info" {
   value = "${aws_instance.web.*.public_dns}"
-  value = "${aws_instance.web.*.tags.Name}"
+  value = "${aws_instance.web.*.tags.Name
 }
 
